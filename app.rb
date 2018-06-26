@@ -14,4 +14,6 @@ class App < Sinatra::Base
   @result.to.s
   end
   
+  get 
+  
 end
