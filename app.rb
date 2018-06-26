@@ -8,4 +8,10 @@ class App < Sinatra::Base
   @result
   end
   
+  get '/:square/:name' do
+  @name = params[:name]
+  @result = @name.reverse
+  @result
+  end
+  
 end
