@@ -14,6 +14,7 @@ class App < Sinatra::Base
   @result.to.s
   end
   
-  get 
+  get '/say/:number/:phrase' do
+  
   
 end
