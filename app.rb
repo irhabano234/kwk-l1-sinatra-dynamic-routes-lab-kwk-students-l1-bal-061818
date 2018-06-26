@@ -8,7 +8,7 @@ class App < Sinatra::Base
   @result
   end
   
-  get '/:square/:name' do
+  get '/:square/:number' do
   @name = params[:name]
   @result = @name.reverse
   @result
