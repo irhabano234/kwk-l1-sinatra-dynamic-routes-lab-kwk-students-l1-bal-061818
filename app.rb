@@ -7,4 +7,5 @@ class App < Sinatra::Base
   @result = @name.reverse
   @result
   end
+  
 end
